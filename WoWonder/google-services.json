@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "129652025633",
+    "firebase_url": "https://fooshiawork.firebaseio.com",
+    "project_id": "fooshiawork",
+    "storage_bucket": "fooshiawork.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129652025633:android:5550f7d7572dfb54607660",
+        "android_client_info": {
+          "package_name": "com.fooshia.timeline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129652025633-3i0v49el1l00csoc703cpq9jp1kdbah0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fooshia.timeline",
+            "certificate_hash": "ca98faba5bd00a6173b61240dc9227cdb901da48"
+          }
+        },
+        {
+          "client_id": "129652025633-e4jouomfcf84c8ik56b1jfjklou0riv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiK49SdF6a4LASjwZW3NV46z-zlNmxjlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129652025633-e4jouomfcf84c8ik56b1jfjklou0riv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

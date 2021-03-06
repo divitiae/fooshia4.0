@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:id="@+id/main"
+     android:layout_width="90dp"
+     android:layout_height="wrap_content"
+     android:layout_margin="5dp"
+     android:clickable="false"
+     android:orientation="vertical"
+     android:focusable="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="138dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_round_story"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/custom_ripple"
+                android:tint="@android:color/transparent"
+                android:tintMode="src_in"
+                app:riv_corner_radius="30dp"
+                android:src="@drawable/no_profile_image_circle"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="35dp"
+            android:background="@drawable/story_round_color"
+            android:gravity="center">
+             <RelativeLayout  
+                  android:layout_width="30dp"
+                  android:layout_height="30dp"
+                    android:background="@drawable/story_round_color"
+                    android:backgroundTint="@color/accent"
+                    android:gravity="center">
+
+               <refractored.controls.CircleImageView
+                     android:id="@+id/profile_indicator"
+                     android:layout_width="22dp"
+                     android:layout_height="22dp"
+                     app:civ_border_width="10dp"
+                     android:padding="10dp"
+                     android:background="@drawable/social_bg_circle_dotted"
+                     android:src="@drawable/Grey_Offline"
+                     android:layout_gravity="center|center"
+                     android:gravity="center|center"
+                    android:visibility="gone"/> 
+
+                <ImageView
+                    android:id="@+id/userProfileImage"
+                    android:scaleType="centerCrop"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/plus"
+                    android:layout_gravity="center|center"
+                    android:gravity="center|center" /> 
+
+             </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center_vertical">
+
+         <TextView
+              android:id="@+id/Txt_Username"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:gravity="center"
+              android:textSize="12dp"
+		      android:maxLines="1"
+		      android:lines="1"
+              android:layout_marginStart="0dp"
+              android:clickable="false"
+              android:focusable="false"
+              android:layout_centerHorizontal="true"
+              android:ellipsize="end" />
+
+     </LinearLayout>
+
+</LinearLayout>
